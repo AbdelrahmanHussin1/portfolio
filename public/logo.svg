@@ -1,0 +1,29 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="4" y="4" width="92" height="92" rx="22" fill="#0c0c10" stroke="url(#emblem-border-grad)" stroke-width="3"/>
+  <path d="M24 72L44 26H53L35 72H24Z" fill="url(#crimson-grad)"/>
+  <path d="M34 54H62L59 61H31L34 54Z" fill="url(#crimson-grad)"/>
+  <path d="M58 26L74 26L56 72H40L58 26Z" fill="url(#gold-grad)" fill-opacity="0.95"/>
+  <path d="M66 26H77L61 72H50L66 26Z" fill="url(#gold-light-grad)"/>
+  <circle cx="50" cy="50" r="3.5" fill="#ffffff"/>
+  <defs>
+    <linearGradient id="crimson-grad" x1="20" y1="24" x2="60" y2="76" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ef4444"/>
+      <stop offset="0.6" stop-color="#dc2626"/>
+      <stop offset="1" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="gold-grad" x1="40" y1="24" x2="78" y2="74" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fbbf24"/>
+      <stop offset="0.5" stop-color="#e5a93c"/>
+      <stop offset="1" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="gold-light-grad" x1="50" y1="26" x2="77" y2="72" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fef08a"/>
+      <stop offset="1" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="emblem-border-grad" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dc2626"/>
+      <stop offset="0.5" stop-color="rgba(255,255,255,0.2)"/>
+      <stop offset="1" stop-color="#e5a93c"/>
+    </linearGradient>
+  </defs>
+</svg>
