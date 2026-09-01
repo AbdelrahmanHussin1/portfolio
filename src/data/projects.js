@@ -14,18 +14,21 @@ export const projects = [
     category: "AI & Machine Learning",
     featured: true,
     name: "MindSense",
-    tagline: "Intelligent mental health detection & prediction platform",
+    tagline: "B.Sc. Graduation Project — Intelligent mental health detection & prediction platform powered by Gemini AI",
     image: "/projects/mind-sense.png",
     imageAlt: "MindSense mental health detection application interface",
     problem: "Mental health screening is frequently slow to access, intimidating, and rarely available before a clinical crisis point. Most individuals never receive a structured initial assessment.",
-    build: "A cross-platform Flutter application pairing mood analytics and standardized psychological assessments with an NLP-powered conversational assistant. User inputs feed trained XGBoost classification models that detect potential ADHD, depression, anxiety, and bipolar indicators with calibrated risk metrics.",
-    architecture: "Flutter Client → Firebase Authentication & Cloud Firestore → Python ML Inference Service (FastAPI / XGBoost) → Automated retraining pipeline on anonymized datasets.",
-    tech: ["Flutter", "Python", "XGBoost", "NLP", "Firebase", "Machine Learning"],
+    build: "A cross-platform Flutter application pairing mood analytics and standardized psychological assessments with an empathetic conversational AI assistant. Benchmarked multiple LLM models and integrated Gemini Flash for optimal conversational depth and sub-second latency, working alongside trained XGBoost classification models that screen for potential ADHD, depression, anxiety, and bipolar indicators.",
+    architecture: "Flutter Mobile App → Google Gemini Flash API & FastAPI Inference Bridge → Firebase Auth & Cloud Firestore → XGBoost & NLP Clinical Screening Pipelines.",
+    tech: ["Flutter", "Gemini AI", "Python", "XGBoost", "NLP", "Firebase"],
     whatBroke: {
-      problem: "Balancing model recall against false positives — in mental health risk screening, a false negative is substantially more critical than a cautious alert.",
-      response: "Conducted precision threshold tuning and rewritten clinical assessment dialogs to maintain high predictive sensitivity without generating alarm.",
+      problem: "Benchmarking multiple AI/LLM models to balance empathetic conversational tone and clinical nuance with real-time mobile latency and compute overhead.",
+      response: "Evaluated several model architectures and selected Gemini Flash as the primary engine for its superior inference speed and contextual reasoning, paired with safety boundary prompt scaffolding.",
     },
-    links: { demo: null, github: null },
+    links: {
+      demo: null,
+      github: "https://github.com/AbdelrahmanHussin1/grad_flutter_project",
+    },
   },
   {
     id: "clinic-saas",
@@ -48,14 +51,14 @@ export const projects = [
     links: { demo: null, github: null },
   },
   {
-    id: "ayounk",
+    id: "ayonk",
     number: "03",
     year: "2024",
     category: "Architecture & Construction",
     featured: true,
     name: "Ayonk Designs",
     tagline: "Corporate platform for interior design, finishing works & construction",
-    image: "/projects/ayounk.png",
+    image: "/projects/AYONK.png",
     imageAlt: "Ayonk Designs architecture, finishing and construction company website",
     problem: "Ayonk required a modern, bilingual (English & Arabic) digital corporate presence to showcase luxury interior design, finishing works, facade engineering, and construction services with dynamic quote requests.",
     build: "A high-performance responsive web platform presenting comprehensive service lines (Finishing Works, Interior Design, Construction, Facades, Project Management), project case studies, client testimonials, and consultation inquiry workflows with seamless RTL support.",
@@ -101,7 +104,7 @@ export const projects = [
     featured: true,
     name: "Sysora Platform",
     tagline: "Modern production-grade corporate & product platform",
-    image: "/projects/sysora.png",
+    image: "/projects/SYSORA.png",
     imageAlt: "Sysora digital platform homepage preview",
     problem: "The brand required a digital presence that combined refined editorial aesthetics and fluid motion without sacrificing mobile performance or SEO benchmarks.",
     build: "A performance-tuned React and Vite web platform utilizing Tailwind CSS and GSAP animations, optimized for 60fps transitions and sub-second load times.",
@@ -111,8 +114,14 @@ export const projects = [
       problem: "Complex scroll-triggered parallax effects caused GPU memory spikes and frame drops on mid-tier mobile browsers.",
       response: "Re-architected animations using composite-only properties (`transform`, `opacity`), isolated rendering layers, and added automatic low-power device fallbacks.",
     },
-    links: { demo: "https://sysoraeg.com/", github: null },
+    links: {
+      demo: "https://sysoraeg.com/",
+      github: "https://github.com/AbdelrahmanHussin1/sysora-website",
+    },
   },
 ];
 
-export const getProjectById = (id) => projects.find((p) => p.id === id);
+export const getProjectById = (id) =>
+  projects.find(
+    (p) => p.id === id || (p.id === "ayonk" && id === "ayounk") || (p.id === "ayounk" && id === "ayonk")
+  );

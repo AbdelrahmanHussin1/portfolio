@@ -36,7 +36,7 @@ export const skillGroups = [
       { name: "REST APIs", detail: "Resource design, versioning" },
       { name: "SignalR", detail: "Real-time push, live updates" },
       { name: "Docker", detail: "Containerized environments" },
-      { name: "Machine Learning", detail: "Applied classification, NLP" },
+      { name: "Machine Learning", detail: "Gemini AI, LLM Integration, XGBoost & NLP" },
     ],
   },
 ];

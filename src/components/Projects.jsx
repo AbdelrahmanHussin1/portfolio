@@ -16,6 +16,7 @@ const CATEGORIES = [
 const PROJECT_ICONS = {
   "mind-sense": Activity,
   "clinic-saas": Stethoscope,
+  ayonk: Layers,
   ayounk: Layers,
   "restaurant-os": Utensils,
   sysora: Globe,

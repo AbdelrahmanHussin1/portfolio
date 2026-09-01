@@ -36,7 +36,7 @@ export const experience = [
     period: "2024–2025",
     title: "MindSense — Graduation Project",
     org: "MSA University",
-    description: "Designed and built a mental health prediction platform combining Flutter, Firebase, and trained ML classifiers — the capstone of the degree.",
+    description: "Designed and built a mental health prediction platform combining Flutter, Firebase, trained ML classifiers, and Google Gemini Flash conversational AI — the capstone of the degree.",
     type: "education",
   },
   {

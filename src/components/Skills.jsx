@@ -24,7 +24,7 @@ const SKILL_PROJECT_MAP = {
   "REST APIs": "Clean Contract Architecture, DTOs & Validation",
   SignalR: "ClinicOS Live Clinic Dispatch & Real-Time Events",
   Docker: "Containerized microservices & reproducible builds",
-  "Machine Learning": "MindSense NLP & XGBoost Clinical Classification",
+  "Machine Learning": "MindSense Gemini Flash AI, NLP & XGBoost Clinical Classification",
 };
 
 const CATEGORIES = [
