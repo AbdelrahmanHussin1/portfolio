@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { useEffect, useState, lazy, Suspense } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { useLenis, getLenis, ScrollTrigger } from "./utils/useLenis";
@@ -67,6 +68,7 @@ export default function App() {
       </main>
 
       <Footer />
+      <Analytics />
     </div>
   );
 }
