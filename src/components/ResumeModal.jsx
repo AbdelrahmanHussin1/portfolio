@@ -67,7 +67,7 @@ export default function ResumeModal() {
           {/* Action Buttons */}
           <div className="flex items-center gap-1.5 sm:gap-3 shrink-0">
             <a
-              href="/Abdelrahman_Hussin_CV.pdf"
+              href="/ABDELRAHMAN HUSSIN ALSAID_CV.pdf"
               target="_blank"
               rel="noreferrer"
               title="Open in new tab"
@@ -78,8 +78,8 @@ export default function ResumeModal() {
             </a>
 
             <a
-              href="/Abdelrahman_Hussin_CV.pdf"
-              download="Abdelrahman_Hussin_CV.pdf"
+              href="/ABDELRAHMAN HUSSIN ALSAID_CV.pdf"
+              download="ABDELRAHMAN HUSSIN ALSAID_CV.pdf"
               className="px-3 sm:px-4 py-1.5 sm:py-2 rounded-full bg-gradient-to-r from-[#dc2626] to-[#e5a93c] text-white font-semibold text-xs sm:text-sm hover:opacity-90 transition-all flex items-center gap-1.5 shadow-lg shadow-[#dc2626]/20"
             >
               <Download size={13} />
@@ -99,7 +99,7 @@ export default function ResumeModal() {
         {/* PDF Viewer Body */}
         <div className="relative flex-1 w-full h-full bg-[#18181b] overflow-hidden">
           <iframe
-            src="/Abdelrahman_Hussin_CV.pdf#toolbar=1&navpanes=0"
+            src="/ABDELRAHMAN HUSSIN ALSAID_CV.pdf#toolbar=1&navpanes=0"
             title="Curriculum Vitae Document Preview"
             className="w-full h-full border-0"
           />
@@ -108,8 +108,8 @@ export default function ResumeModal() {
           <div className="sm:hidden absolute bottom-3 left-3 right-3 p-3 rounded-2xl bg-black/90 backdrop-blur-md border border-white/20 flex items-center justify-between text-xs">
             <span className="text-zinc-300">Viewing on mobile?</span>
             <a
-              href="/Abdelrahman_Hussin_CV.pdf"
-              download="Abdelrahman_Hussin_CV.pdf"
+              href="/ABDELRAHMAN HUSSIN ALSAID_CV.pdf"
+              download="ABDELRAHMAN HUSSIN ALSAID_CV.pdf"
               className="font-semibold text-white underline underline-offset-2 flex items-center gap-1"
             >
               <Download size={13} /> Direct Download
